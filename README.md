@@ -1,7 +1,7 @@
 ## 📃 Sobre
 Este repositório contém os arquivos do teste prático para vaga de programador PHP Júnior.
 Contém uma API REST em **PHP** como back-end, **Mysql** como banco de dados e uma aplicação em **HTML/CSS/Javascript** como front-end.
-Esta plicação permite abrir chamados, editar um chamado já cadastrado, excluir um chamado e listar os chamados cadastrados.
+Esta aplicação permite abrir chamados, editar um chamado já cadastrado, excluir um chamado e listar os chamados cadastrados.
 
 **PHP**: Foi utilizado para criar uma API REST que faz todo o CRUD da aplicação, sendo responsável pela regra de negócio e pela persistência no banco dados, além de tratar as exceções e servir os dados tanto ao front-end web quanto a qualquer API Client.
 
