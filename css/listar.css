@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    height: 90vh;
+}
+
+.top_bar {
+    background-color: #18042c;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.logo {
+    padding-left: 10px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.page_title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.chamados_card_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.chamados_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 3px;
+    padding: 1%;
+    width: 80%;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+button {
+    border: 1.5px solid #18042c;
+    background-color: #18042c;
+    color: #ffffff;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+}
+
+table {
+    padding-top: 10px;
+    font-size: 14px;
+    width: 80%;
+}
+
+table.dataTable thead,
+th {
+    background-color: #00000022;
+    text-align: start;
+}
+
+table.dataTable tbody tr.even {
+    background-color: #ffffff;
+}
+
+table.dataTable tbody tr.odd {
+    background-color: #00000012;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+    padding: 10px;
+}
+
+.table_buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 20px;
+}
+
+.table_buttons_container i {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    width: 12px;
+}
+
+.toast {
+    opacity: 1 !important;
+}

@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    height: 90vh;
+}
+
+.top_bar {
+    background-color: #18042c;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.logo {
+    padding-left: 10px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.page_title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.form_card_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.form_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 3px;
+    padding: 3% 9% 6% 6%;
+}
+
+.aligned_form {
+    display: table;
+    table-layout: fixed;
+}
+
+.form_group {
+    display: table-row;
+    height: 50px;
+}
+
+.form_group label {
+    display: table-cell;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.label_textarea {
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.form_group input {
+    display: table-cell;
+    border: 1.5px solid #00000022;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.form_group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1.5px solid #00000022;
+    border-radius: 4px;
+    background-color: #ffffff;
+    min-height: 50px;
+    resize: none;
+    margin-bottom: 8px;
+}
+
+.form_group select {
+    border: 1.5px solid #00000022;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.form_group input,
+select {
+    text-align: center;
+    padding: 5px;
+    height: 20px;
+    width: 220px;
+}
+
+.form_group_button {
+    vertical-align: bottom;
+    display: table-row;
+    height: 60px;
+    text-align: justify;
+}
+
+.form_group_button .send_container {
+    display: table-cell;
+    text-align: start;
+    padding-right: 15px;
+    vertical-align: bottom;
+}
+
+.form_group_button button {
+    border: 1.5px solid #18042c;
+    background-color: #18042c;
+    color: #ffffff;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.button_container button {
+    border: 1.5px solid #18042c;
+    background-color: #18042c;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.toast {
+    opacity: 1 !important;
+}

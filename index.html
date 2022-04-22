@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desafio PHP jr VD/GP</title>
+    <meta name="description" content="Desafio PHP JR">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="top_bar">
+        <p class="logo">VD</p>
+        <p class="page_title" id="page_title">Abrir chamado</p>
+        <div></div>
+    </div>
+
+    <div class="form_card_container">
+        <div class="form_card">
+            <form method="post" name="chamado" id="form_chamado" class="aligned_form">
+                <div class="form_group">
+                    <label for="titulo">Título</label>
+                    <input type="text" name="titulo" id="titulo" required />
+                </div>
+
+                <div class="form_group">
+                    <label for="descricao" class="label_textarea">Descrição</label>
+                    <textarea name="descricao" id="descricao" cols="50" rows="10" required></textarea>
+                </div>
+
+                <div class="form_group">
+                    <label for="status">Status</label>
+                    <select name="status" id="status" required>
+                            <option value="" disabled selected hidden>Aberto /
+                                Fechado</option>
+                            <option value="1">Aberto</option>
+                            <option value="0">Fechado</option>
+                        </select>
+                </div>
+
+                <div class="form_group">
+                    <label for="data_abertura">Data de Abertura</label>
+                    <input type="datetime-local" name="data_abertura" id="data_abertura" required />
+                </div>
+
+
+                <div class="form_group">
+                    <label for="solicitante">Solicitante</label>
+                    <input type="text" name="solicitante" id="solicitante" required/>
+                </div>
+
+                <div class="form_group_button">
+                    <label></label>
+                    <input type="hidden" id="id" name="id" />
+                    <div class="send_container">
+                        <button id="send" type="submit">Salvar</button>
+                    </div>
+                </div>
+            </form>
+            <div class="button_container">
+                <button onclick="location.href='./listar.html'" type="button">Listar chamados</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
