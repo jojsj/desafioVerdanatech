@@ -3,15 +3,22 @@ Este repositório contém os arquivos do teste prático para vaga de programador
 Contém uma API REST em **PHP** como back-end e **Mysql** como banco de dados, uma aplicação em **HTML/CSS/Javascript** como front-end.
 Esta plicação permite abrir chamados, editar um chamado já cadastrado, excluir um chamado e listar os chamados cadastrados.
 
+**O projeto pode ser visto em execução aqui**: [http://desafiovdt.x10.mx/](http://desafiovdt.x10.mx/)
+
 **PHP**: Foi utilizado para criar uma API REST que faz todo o CRUD da aplicação, sendo responsável pela regra de negócio e pela persistência no banco dados, além de tratar as exceções e servir os dados tanto ao front-end web quanto a qualquer API Client.
+
+**Javascript**: Foi utilizado para consumir a API REST em PHP e gerenciar eventos das páginas.
+
+**Bibliotecas utilizadas**:
+- [DataTables](https://datatables.net/) - Para exibir os chamados.
+- [toastr](https://github.com/CodeSeven/toastr) - Para notificar sucessos ou erros.
+- [jQuery](https://jquery.com/) - Requisito para as outras bibliotecas.
 
 ## 📚 Requisitos
 - [**Git**](https://git-scm.com/) para clonar o projeto.
 - [**PHP**](https://www.php.net/downloads.php) instalado.
 - [**Mysql**](https://dev.mysql.com/downloads/) para persistir os dados.
 - Um navegador
-
-O projeto pode ser visto em execução aqui: [http://desafiovdt.x10.mx/](http://desafiovdt.x10.mx/)
 
 ## ▶ Começando
 ``` bash
